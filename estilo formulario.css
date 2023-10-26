@@ -1,0 +1,45 @@
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 40px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+form button, form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #FF4500;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FF6347;
+}
+
+h3 {
+    margin-top: 20px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="estilo formulario.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="images/Chinito2.png" />
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="images/Chinito.png" alt="Logo del restaurante"></a>
+    </div>
+    <div class="content" id="contacto">
+        <h1>Iniciar Sesión</h1>
+        <form id="loginForm">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password" >Contraseña:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+    </div>
+
+    <script>
+        const usernames = [
+            { username: "Admin", password: "CBTis37" },
+                { username: "username", password: "1234" },
+        ];
+
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            const user = usernames.find(u => u.username === username && u.password === password);
+
+            if (user) {
+                window.location.href = "inicio.html";
+            } else {
+                alert("Credenciales incorrectas. Inténtalo de nuevo.");
+            }
+        });
+    </script>
+</body>
+</html>

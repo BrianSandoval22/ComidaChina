@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo formulario.css">
+    <link rel="shortcut icon" href="images/Chinito2.png" />
+    <script src="https://kit.fontawesome.com/90b922c21d.js" crossorigin="anonymous"></script>
+    <title>Contacto - Restaurante de Comida China</title>
+</head>
+<body>
+    <div class="logo">
+        <a href="inicio.html"><img src="images/Chinito.png" alt="Logo del restaurante"></a>
+    </div>
+    <div class="menu">
+        <a href="inicio.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+    
+
+    <div class="banner">
+        <h1>Contacto</h1>
+    </div>
+
+    <div class="content" id="contacto">        
+        <h3>Contáctanos</h3>
+        <form action="formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <h2>Contacto</h2>
+        <p>Estamos ubicados en:</p>
+        <p>Dirección: 123 Calle Principal, Ciudad</p>
+        <p>Teléfono: (123) 456-7890</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14157.90984893004!2d-109.9616069!3d27.48552275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1698087908854!5m2!1ses!2smx" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="content">
+            <h2>SÍGUENOS EN NUESTRAS REDES SOCIALES</h2>
+            <div class="red-social">
+                <a href="https://es-la.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/" class="fa-brands fa-x-twitter"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="https://www.tiktok.com/es/" class="fa-brands fa-tiktok"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

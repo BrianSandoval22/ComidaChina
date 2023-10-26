@@ -1,0 +1,123 @@
+body {
+    background-image: url('fondo1.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFD700;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #FF4500;
+}
+
+
+.banner {
+    background-image: url('https://offloadmedia.feverup.com/cdmxsecreta.com/wp-content/uploads/2023/04/10173646/restaurantes-chinos-cdmx.jpg');
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: #FFF;
+    padding-top: 100px;
+}
+
+.banner h1 {
+    font-size: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    scroll-behavior: smooth;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    scroll-behavior: smooth;
+}
+
+.content p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-item {
+    margin: 20px;
+    padding: 10px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    margin: 0;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    color: #FF4500;
+}
+
+.red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #333;
+    background-color: #fff; 
+    margin: 10px 10px 0 0; 
+    transition: background-color 300ms ease, color 300ms ease;
+    border-radius: 50%; 
+}
+
+.red-social a:hover {
+    background-color: #FFD700; 
+    color: #fff; 
+}
