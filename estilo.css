@@ -122,9 +122,27 @@ body {
     color: #fff; 
 }
 
-@media (max-width: 600px) {
-  .content {
-      width: 90%;
-      margin: 0 auto;
+@media (max-width: 760px) {
+    .banner h1 {
+        font-size: 40px;
+    }
+    .content {
+        padding: 20px;
+        max-width: 80%;
+    }
+    video, img {
+        width: 80%;
+        height: auto;
+    }
+    .menu-item {
+        margin: 10px;
+    }
+    
+    .red-social a{
+        margin-right: -10px;
+    }
+
+    iframe{
+        width: 80%;
     }
 }
