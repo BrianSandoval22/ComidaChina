@@ -121,3 +121,10 @@ body {
     background-color: #FFD700; 
     color: #fff; 
 }
+
+@media (max-width: 600px) {
+  .content {
+      width: 90%;
+      margin: 0 auto;
+    }
+}
